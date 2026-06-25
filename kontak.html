@@ -5,8 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kontak Layanan</title>
   <style>
-    body { margin: 0; font-family: system-ui, sans-serif; background: #f5f8ff; color: #1f2937; }
-    .page { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background-image: linear-gradient(rgba(255,255,255,0.72), rgba(255,255,255,0.72)), url("5.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #1f2937;
+    }
+    .page { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; position: relative; z-index: 1; }
     .card { width: 100%; max-width: 700px; background: #fff; border-radius: 20px; box-shadow: 0 22px 50px rgba(15, 23, 42, 0.12); padding: 30px; }
     h1 { margin-top: 0; font-size: 2rem; }
     .contact-intro { color: #4b5563; line-height: 1.7; margin-bottom: 22px; }
